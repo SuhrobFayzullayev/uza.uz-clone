@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.audio.active .left-slide {
+  left: 0;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff !important;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
