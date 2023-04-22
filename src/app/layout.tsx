@@ -8,7 +8,7 @@ import "./globals.scss";
 import PhotoCollection from "./(pages)/(home)/components/photoCollection";
 import DownloadApp from "./(pages)/(home)/components/downloadApp";
 import { usePathname } from "next/navigation";
-
+import { Analytics } from "@vercel/analytics/react";
 function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
@@ -36,6 +36,8 @@ function RootLayout({ children }: { children: React.ReactNode }) {
           )}
           <Footer />
         </Container>
+
+        <Analytics />
       </body>
     </html>
   );
