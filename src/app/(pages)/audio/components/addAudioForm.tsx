@@ -1,5 +1,5 @@
 import { useAppSelector } from "@/redux/hooks";
-import { Button, Form, Input } from "antd";
+import { Button, Form, Input, notification } from "antd";
 import React from "react";
 
 type TAddAudioForm = {
@@ -15,9 +15,22 @@ export default function AddAudioForm({
 }) {
   const [form] = Form.useForm();
   const onFinish = ({ title, image, audio }: TAddAudioForm) => {
-    if (title.trim() && image.trim() && audio.trim()) {
-      addAudios(title.trim(), image.trim(), audio.trim());
-      form.resetFields();
+    // if(image.trim())
+    if (image.trim().slice(0, 18) == "https://cdn.uza.uz") {
+      if (title.trim() && image.trim() && audio.trim()) {
+        addAudios(title.trim(), image.trim(), audio.trim());
+        form.resetFields();
+        notification.success({
+          message: "New image added successfully",
+          duration: 2,
+        });
+      }
+    } else {
+      notification.error({
+        message:
+          "Added image protocol and hostname 'https://cdn.uza.uz' should look like this",
+        duration: 2,
+      });
     }
   };
 

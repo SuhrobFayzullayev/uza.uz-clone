@@ -26,12 +26,21 @@ export default function AddPostForm({
     values.text.trim();
 
     const { title, img, text } = values;
-    if (title.trim() && img.trim() && text.trim()) {
-      addNewPost(values);
-      setQuillData("");
-      form.resetFields();
-      notification.success({
-        message: "New Post added successully",
+
+    if (img.slice(0, 18) == "https://cdn.uza.uz") {
+      if (title.trim() && img.trim() && text.trim()) {
+        addNewPost(values);
+        setQuillData("");
+        form.resetFields();
+        notification.success({
+          message: "New Post added successully",
+          duration: 2,
+        });
+      }
+    } else {
+      notification.error({
+        message:
+          "Added image protocol and hostname 'https://cdn.uza.uz' should look like this",
         duration: 2,
       });
     }

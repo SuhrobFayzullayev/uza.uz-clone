@@ -25,17 +25,25 @@ export default function AddPhotoForm({
     values.size.trim();
     values.price.trim();
 
-    console.log(values);
 
     const { title, img, author, pixels, size, price } = values;
-    if (title && img && author && pixels && size && price) {
-      addNewPhoto(values);
-      form.resetFields();
-      notification.success({
-        message: "New Photo added successully",
+    if (img.slice(0, 18) == "https://cdn.uza.uz") {
+      if (title && img && author && pixels && size && price) {
+        addNewPhoto(values);
+        form.resetFields();
+        notification.success({
+          message: "New Photo added successully",
+          duration: 2,
+        });
+      }
+    } else {
+      notification.error({
+        message:
+          "Added image protocol and hostname 'https://cdn.uza.uz' should look like this",
         duration: 2,
       });
     }
+   
   };
 
   const onFinishFailed = (errorInfo: any) => {
