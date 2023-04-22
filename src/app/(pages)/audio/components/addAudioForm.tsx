@@ -14,6 +14,7 @@ export default function AddAudioForm({
   addAudios: (title: string, image: string, audio: string) => void;
 }) {
   const [form] = Form.useForm();
+
   const onFinish = ({ title, image, audio }: TAddAudioForm) => {
     // if(image.trim())
     if (image.trim().slice(0, 18) == "https://cdn.uza.uz") {
