@@ -46,10 +46,10 @@ export default function Footer() {
   };
   return (
     <div className="bg-[#ECECEC] py-10 px-5  flex justify-between">
-      <div className="w-[5%] h-[200px] relative">
+      <div className="w-[4%] h-[200px] relative">
         <Image
           alt=":("
-          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/uza-logo.d02b4538.jpg?alt=media&token=7c4b7744-1719-4425-9999-1be7db12b6b4"
+          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/uza-foot-logo.ce71d344-removebg-preview.png?alt=media&token=71712ffc-6c28-4f90-b34a-e7814b9caf2f"
           fill
         />
       </div>
@@ -62,10 +62,10 @@ export default function Footer() {
         />
         <FooterContent title="ЎзА ҳақида" linksList={data.about} />
       </div>
-      <div className="w-[5%] relative h-[200px]">
+      <div className="w-[4%] relative h-[200px]">
         <Image
           alt=":("
-          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/oks-logo.960c003a.jpg?alt=media&token=1adca117-12c6-439d-a15a-d2cb61ea0f19"
+          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/oks-logo.960c003a.png?alt=media&token=0fc0a25e-d743-4711-81c8-c44ed015c0e6"
           fill
         />
       </div>

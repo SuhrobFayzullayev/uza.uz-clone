@@ -20,7 +20,7 @@ export default function DownloadApp() {
             >
               <Image
                 alt=""
-                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/app-store.368d07f4.jpg?alt=media&token=6b315d72-41b9-4097-8ab6-9152fb3c61ff"
+                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/app-store.368d07f4.png?alt=media&token=729cd79b-f1d8-47c9-9653-4ab13b152b1a"
                 fill
               />
             </Link>
@@ -28,11 +28,11 @@ export default function DownloadApp() {
               href={
                 "https://play.google.com/store/apps/details?id=com.uza_uz&hl=ru&gl=US"
               }
-              className="h-[80px] w-[170px] relative"
+              className="h-[80px] w-[170px] relative bg-white rounded-full"
             >
               <Image
                 alt=""
-                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/google-play.6f810925.jpg?alt=media&token=19fdd6bc-cfa7-4e4d-880d-144ed7d20c98"
+                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/google-play.6f810925-removebg-preview.png?alt=media&token=f120bb05-c268-40e0-a4b3-eb610df08dcd"
                 fill
               />
             </Link>

@@ -12,10 +12,11 @@ import { notoSans } from "@/public/fonts";
 export default function Header() {
   return (
     <div className="flex py-2">
-      <div className="px-2 w-[24.9%]">
-        <Link href="/">
+      <div className="w-[24.9%]">
+        <Link href="/" className="bg-[#F7F7F7]">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/uza-logo.d02b4538.jpg?alt=media&token=7c4b7744-1719-4425-9999-1be7db12b6b4"
+            className="bg-[#F7F7F7]"
+            src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/Screenshot%20(240).png?alt=media&token=e1a3e9be-9137-4875-89b9-628ae44fb44a"
             alt=":("
             width={220}
             height={150}
