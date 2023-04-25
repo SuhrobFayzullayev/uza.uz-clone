@@ -19,7 +19,7 @@ export default function Header() {
             src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/Screenshot%20(240).png?alt=media&token=e1a3e9be-9137-4875-89b9-628ae44fb44a"
             alt=":("
             width={220}
-            height={150}
+            height={150} 
           />
         </Link>
       </div>
