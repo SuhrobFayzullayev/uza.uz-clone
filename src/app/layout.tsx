@@ -37,6 +37,19 @@ function RootLayout({ children }: { children: React.ReactNode }) {
             )}
             <Footer />
           </Container>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-GPC859GY8H"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GPC859GY8H');`,
+            }}
+          />
         </body>
       </html>
     </>

@@ -50,17 +50,6 @@ export default function Header() {
             <AiFillYoutube className="text-[30px] text-[red]" />
             <BsTelegram className="text-[26px] mt-0.5 text-[#1DA1F2]" />
           </div>
-          <Link
-            href="/user"
-            className="border flex items-center h-1/2 rounded-full w-[150px]"
-          >
-            <div className=" h-full w-[50px] border-l-0  flex justify-center items-center border rounded-full">
-              <BiUserCircle className="text-[#B1CAE6] text-[28px]" />
-            </div>
-            <p className={`ml-4 ${notoSans.className} text-[14px] font-[500]`}>
-              Кабинет
-            </p>
-          </Link>
         </div>
       </div>
     </div>

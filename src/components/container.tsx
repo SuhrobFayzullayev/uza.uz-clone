@@ -7,7 +7,7 @@ export default function Container({ children }: { children: React.ReactNode }) {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistStore(store)}>
-        <div className="lg:container mx-auto">{children}</div>
+        <div className="lg:container mx-auto ">{children}</div>
       </PersistGate>
     </Provider>
   );
