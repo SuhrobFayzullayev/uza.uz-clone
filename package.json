@@ -34,6 +34,7 @@
     "vercel": "^28.20.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/redux-persist": "^4.3.1",
     "autoprefixer": "^10.4.14",
