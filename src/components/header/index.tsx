@@ -15,7 +15,7 @@ export default function Header() {
       <div className="px-2 w-[24.9%]">
         <Link href="/">
           <Image
-            src="https://uza.uz/static/media/uza-logo.d02b4538.svg"
+            src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/uza-logo.d02b4538.jpg?alt=media&token=7c4b7744-1719-4425-9999-1be7db12b6b4"
             alt=":("
             width={220}
             height={150}

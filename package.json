@@ -11,12 +11,10 @@
   "dependencies": {
     "@next/font": "^13.2.4",
     "@reduxjs/toolkit": "^1.9.3",
-    "@types/js-cookie": "^3.0.3",
     "@types/moment": "^2.13.0",
     "@types/node": "18.15.11",
     "@types/react": "^18.0.34",
     "@types/react-dom": "18.0.11",
-    "@vercel/analytics": "^1.0.0",
     "antd": "^5.3.3",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",

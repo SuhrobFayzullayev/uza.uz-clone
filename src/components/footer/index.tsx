@@ -49,7 +49,7 @@ export default function Footer() {
       <div className="w-[5%] h-[200px] relative">
         <Image
           alt=":("
-          src="https://uza.uz/static/media/uza-foot-logo.ce71d344.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/uza-logo.d02b4538.jpg?alt=media&token=7c4b7744-1719-4425-9999-1be7db12b6b4"
           fill
         />
       </div>
@@ -65,7 +65,7 @@ export default function Footer() {
       <div className="w-[5%] relative h-[200px]">
         <Image
           alt=":("
-          src="https://uza.uz/static/media/oks-logo.960c003a.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/oks-logo.960c003a.jpg?alt=media&token=1adca117-12c6-439d-a15a-d2cb61ea0f19"
           fill
         />
       </div>

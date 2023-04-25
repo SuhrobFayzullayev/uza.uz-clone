@@ -20,7 +20,7 @@ export default function DownloadApp() {
             >
               <Image
                 alt=""
-                src="https://uza.uz/static/media/app-store.368d07f4.svg"
+                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/app-store.368d07f4.jpg?alt=media&token=6b315d72-41b9-4097-8ab6-9152fb3c61ff"
                 fill
               />
             </Link>
@@ -32,7 +32,7 @@ export default function DownloadApp() {
             >
               <Image
                 alt=""
-                src="https://uza.uz/static/media/google-play.6f810925.svg"
+                src="https://firebasestorage.googleapis.com/v0/b/uza-uz.appspot.com/o/google-play.6f810925.jpg?alt=media&token=19fdd6bc-cfa7-4e4d-880d-144ed7d20c98"
                 fill
               />
             </Link>
